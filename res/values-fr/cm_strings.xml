@@ -15,13 +15,6 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Application name -->
-    <string name="cm_application_name" translatable="false">CustomLauncher3</string>
-    <!-- App copyright -->
-    <string name="application_copyright" translatable="false">Copyright \u00A9 2014 The CyanogenMod Project\nModifications Copyright \u00A9 2014 The NamelessRom Project</string>
-    <!-- App version -->
-    <string name="application_version" translatable="false">1.0</string>
-
     <!-- Strings for the customization mode -->
     <!-- Text for sorting mode button -->
     <string name="sort_button_text">Trier</string>
@@ -66,14 +59,11 @@
     <string name="preferences_interface_general_title">Général</string>
     <string name="preferences_interface_general_icons_category">Icônes</string>
     <string name="preferences_interface_general_icons_large_title">Grandes icônes</string>
-    <string name="preferences_interface_general_icons_large_summary">Utiliser les extra grandes icônes de l\'application dans l\'écran d'accueil et le drawer</string>
+    <string name="preferences_interface_general_icons_large_summary">Utiliser les extra grandes icônes de l\'application dans l\'écran d\'accueil et le drawer</string>
     <string name="preferences_interface_general_icons_text_style_title">Style de police du texte</string>
     <string name="preferences_interface_general_icons_text_style_summary">Variant et le style de police à utiliser pour le texte des icônes</string>
     <string name="dialog_pick_iconpack_title">Choisissez le pack d\'icônes</string>
     <string name="default_iconpack_title">Icônes par défaut</string>
     <string name="icon_packs_title">Packs d\'icônes</string>
     <string name="no_iconpacks_summary">Pas de packs d\'icônes installés</string>
-
-    <!-- Folder titles -->
-    <string name="google_title" translatable="false">Google</string>
 </resources>
