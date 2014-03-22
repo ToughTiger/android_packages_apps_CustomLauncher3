@@ -2943,13 +2943,7 @@ public class Launcher extends Activity
         // TODO: implement filtering
         // filterButton.setVisibility(isAllAppsVisible() ? View.VISIBLE : View.GONE);
         filterButton.setVisibility(View.GONE);
-
-        boolean isVisible = !isAllAppsVisible();
-        if (isVisible) {
-            int numIconPacks = IconPackHelper.getSupportedPackages(this).size();
-            isVisible = numIconPacks > 0;
-        }
-        iconPackButton.setVisibility(isVisible ? View.VISIBLE : View.GONE);
+        iconPackButton.setVisibility(!isAllAppsVisible() ? View.VISIBLE : View.GONE);
 
         // Make sure overview panel is drawn above apps customize
         mOverviewPanel.bringToFront();
